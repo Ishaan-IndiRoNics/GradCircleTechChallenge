@@ -1,0 +1,28 @@
+{
+  "node": {
+    "40d2a9795582daab0b5f8f0f49ee0c0d7f4ae521fd": {
+      "workers": {
+        "app/(app)/feed/page": {
+          "moduleId": "[project]/.next-internal/server/app/(app)/feed/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/ai/flows/ai-search-suggester.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "aiSearchSuggester",
+          "filename": "src/ai/flows/ai-search-suggester.ts"
+        },
+        "app/(app)/profile/[userId]/page": {
+          "moduleId": "[project]/.next-internal/server/app/(app)/profile/[userId]/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/ai/flows/ai-search-suggester.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "aiSearchSuggester",
+          "filename": "src/ai/flows/ai-search-suggester.ts"
+        }
+      },
+      "layer": {
+        "app/(app)/feed/page": "action-browser",
+        "app/(app)/profile/[userId]/page": "action-browser"
+      },
+      "filename": "src/ai/flows/ai-search-suggester.ts",
+      "exportedName": "aiSearchSuggester"
+    }
+  },
+  "edge": {},
+  "encryptionKey": "DvmY6iEGsGG4zzQP0vB73L+1OSHmjCdE6MICDyM0iJQ="
+}

@@ -1,0 +1,20 @@
+{
+  "node": {
+    "40d2a9795582daab0b5f8f0f49ee0c0d7f4ae521fd": {
+      "workers": {
+        "app/(app)/profile/[userId]/page": {
+          "moduleId": "[project]/.next-internal/server/app/(app)/profile/[userId]/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/ai/flows/ai-search-suggester.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "aiSearchSuggester",
+          "filename": "src/ai/flows/ai-search-suggester.ts"
+        }
+      },
+      "layer": {
+        "app/(app)/profile/[userId]/page": "action-browser"
+      },
+      "exportedName": "aiSearchSuggester",
+      "filename": "src/ai/flows/ai-search-suggester.ts"
+    }
+  },
+  "edge": {}
+}

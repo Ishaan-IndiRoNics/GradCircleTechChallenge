@@ -16,7 +16,7 @@ import { EditProfileForm } from './edit-profile-form';
 import { AddPetForm } from './add-pet-form';
 import type { Pet, User } from '@/lib/types';
 import { useAuth } from '@/context/auth-context';
-import { useUserProfile } from '@/hooks/use-user-profile';
+import { useUserProfile } from '@/hooks/useUserProfile';
 
 export default function ProfilePage() {
   const params = useParams<{ userId: string }>();
